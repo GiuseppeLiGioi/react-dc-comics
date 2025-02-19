@@ -7,3 +7,81 @@
 html{
   font-family: sans-serif;
 }
+
+/* Header */
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 15px;
+}
+
+ul{
+display: flex;
+list-style-type: none;
+gap: 20px;
+
+}
+li{
+  line-height: 50px;
+}
+
+li.active{
+  border-bottom: 2px solid #0282F9;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+a.active{
+  color: #0282F9;
+}
+
+figure img{
+  width: 60px;
+  
+}
+
+main .container_main_top{
+  margin-top: 10px;
+  background-color: #1C1C1C;
+}
+
+.title_main{
+  color: white;
+  padding: 30px;
+}
+
+.container_main_bottom{
+background-color: #0282F9;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.container_icon_span{
+  display: flex;
+  justify-content: center;
+align-items: center;
+gap: 15px;
+flex-basis: calc(100% / 5 - 15px) ;
+padding: 40px;
+
+}
+
+.img_main{
+  width: 40px;
+  height: 40px;
+}
+
+
+ .span_main{
+  
+color: white;
+font-size: 15px;
+}
