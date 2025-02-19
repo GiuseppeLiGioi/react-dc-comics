@@ -1,4 +1,7 @@
-function Header (){
+function Header ({links}){
+
+    
+
     return(
         <header>
             <div className="container">
@@ -8,16 +11,12 @@ function Header (){
                 <nav>
                     <ul>
 
-                    <li><a href="#">CHARACTERS</a></li>
-                    <li className="active"><a className="active" href="#">COMICS</a></li>
-                    <li><a href="#">MOVIES</a></li>
-                    <li><a href="#">TV</a></li>
-                    <li><a href="#">GAMES</a></li>
-                    <li><a href="#">COLLECTIBLES</a></li>
-                    <li><a href="#">VIDEOS</a></li>
-                    <li><a href="#">FANS</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">SHOP</a></li>
+                    {links.map((link, index) => (
+                            <li key={link.id}>
+                                {/* Usando link.url per il link e un testo generico come l'URL */}
+                                <a href={link.url}>{link.url.slice(1).toUpperCase() || 'HOME'}</a>
+                            </li>
+                        ))}
 
                     </ul>
                    
