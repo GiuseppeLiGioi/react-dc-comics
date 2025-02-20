@@ -168,7 +168,7 @@ const ListItems = () => {
                   </div>
                 );
             })}
-            <div className="btn_div">
+            <div className="button_div">
             <button className="btn_main"> LOAD MORE </button>
 
             </div>
