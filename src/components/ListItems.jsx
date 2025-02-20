@@ -158,7 +158,7 @@ const ListItems = () => {
     return (
         <div className="container_list_items">
           {comics.map((element) => {
-                // Destructuring all'interno del map per ogni singolo elemento
+                
                 const { id, title, description, thumb, price, series, sale_date, type, artists, writers } = element;
 
                 return (
