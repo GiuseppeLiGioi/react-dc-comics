@@ -5,13 +5,14 @@ import subscript from "../assets/imgs/buy-comics-subscriptions.png"
 import visa from "../assets/imgs/buy-dc-power-visa.svg"
 
 
+import ListItems from "./listItems"
+
 function Main (){
     return(
         <main>
             <div className="container_main_top">
-                <h3 className="title_main">
-                    --	&gt; Content goes here! &lt;--
-                </h3>
+
+                <ListItems />
             </div>
 
             <div className="container_main_bottom">
