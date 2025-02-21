@@ -6,13 +6,17 @@ import visa from "../assets/imgs/buy-dc-power-visa.svg"
 
 
 import ListItems from "./listItems"
+import Jumbo from "./jumbo"
+
 
 function Main (){
     return(
         <main>
             <div className="container_main_top">
 
-                <ListItems />
+            <Jumbo />
+            <ListItems />
+
             </div>
 
             <div className="container_main_bottom">

@@ -1,12 +1,14 @@
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
-  font-family: sans-serif;
+html, body {
+  font-family: 'Open Sans', sans-serif;
 }
+
 
 /* Header */
 .container{
@@ -166,6 +168,7 @@ padding: 30px;
   gap: 20px;
   align-items: center;
   justify-content: space-between;
+  margin-top: 30px;
 
   
   
@@ -177,6 +180,7 @@ padding: 30px;
 }
 .comic_text{
   color: white;
+  
   
   
 }
@@ -196,24 +200,46 @@ padding: 30px;
 .btn_main{
   background-color:#0282F9;
   color: white;
-  width: 100px;
   height: 50px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 20px;
+  padding: 10px;
+
+  position: absolute;
   
- 
+}
+
+.btn_main1{
+  background-color:#0282F9;
+  color: white;
+  height: 50px;
+  text-align: center;
+  margin: 20px 20px;
+  padding: 10px;
+
+  position: absolute;
+  top: 90%;
 }
 
 .button_div{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%; /* Occupa tutta la larghezza disponibile */
+  width: 100%; 
+  
+
   
 
 }
 
+
+.container_jumbo{
+  background-image: url(./assets/imgs/jumbotron.jpg);
+  height: 40vh;
+
+  position: relative;
+  
+}
 
 
 
